@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+.header-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 320px) {
+
+    .main {
+        background-color: #F8F8F8;
+        overflow: hidden;
+    }
+
+    /* ---- header ---- */
+    .header-menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 320px;
+        height: 88px;
+        padding: 0 20px;
+        background-color: #fff;
+    }
+
+    .header-circle {
+        width: 40px;
+        height: 40px;
+        background-color: #FF3E79;
+        border-radius: 50%; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .border-divided {
+        display: block;
+        width: 2px;
+        height: 32px;
+        background-color: #EAEAEA;
+    }
+
+    .main {
+        width: 320px;
+        height: 509px;
+        padding-top: 20px;
+    }
+
+
+
+    /* ---- main ----  */
+    
+    .main-header {
+        display: flex;
+    }
+
+    .header-light {
+        background-image: url(/img/light.svg);
+        width: 4px;
+        height: 40px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+    }
+
+    .header-text {
+        font-size: 28px;
+        line-height: 40px;
+        letter-spacing: -0.6px;
+        margin-left: 16px;
+    }
+
+    /* ---- carusel ---- */
+
+    .carusel-overflow {
+        overflow: hidden;
+        overflow-x: scroll;
+        display: flex;
+        white-space: nowrap;
+        height: 30px;
+        margin: 20px 10px;
+    }
+
+    .carusel-button {
+        border: none;
+        border-radius: 5px;
+        margin-right: 10px;
+        padding: 5px;
+        background-color: inherit;
+    }
+
+    .carusel-button:focus {
+        border: 2px solid #B8FFEC;
+        background-color: #F8F8F8;
+    }
+
+}
+
+
+
